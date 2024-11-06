@@ -6,7 +6,27 @@
         <title>Document</title>
     </head>
     <style>
-        
+        .container{
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .max-320{
+            max-width: 320px;
+        }
     </style>
     <body>
         <!-- Navbar -->
@@ -32,7 +52,21 @@
             </nav>
         </header>
         <section class="section-hero">
-            <img src alt>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="image w-50">
+                        <div class="max-320">
+                            <img class="img" src="./Image/umt.png" alt>
+                        </div>
+                    </div>
+                    <div class="subject-title w-50">
+                        <p>Umt adalah universitas terbaik</p>
+                        <p><i>Ayo join umt</i></p>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
     </body>
 </html>
